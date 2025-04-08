@@ -4,7 +4,7 @@ import Island.map.Cell;
 
 public abstract class Animal {
     protected boolean dead = false;
-    protected Cell currentCell; // ← вот это поле нужно
+    protected Cell currentCell;
     protected int daysWithoutFood = 0;
 
     public void incrementHunger() {

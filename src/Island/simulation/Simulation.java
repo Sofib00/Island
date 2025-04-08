@@ -52,8 +52,8 @@ public class Simulation {
 
             printAliveAnimals();
 
-            if (animals.size() <= 2) {
-                System.out.println("\n💀 Симуляция завершена: осталось не больше 2 животных!");
+            if (animals.size() <= 1) {
+                System.out.println("\n💀 Симуляция завершена: осталось не больше одного животного!");
                 printSurvivors();
                 break;
             }
